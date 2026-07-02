@@ -17,7 +17,7 @@
               var p = a[i].slice(2);
               a.splice(i, 1);
               window.history.replaceState(null, null,
-                l.pathname + p + (a.length > 0 ? '?' + a.join('&') : '') + l.hash
+                l.pathname.slice(0, -1) + p + (a.length > 0 ? '?' + a.join('&') : '') + l.hash
               );
               break;
             }
