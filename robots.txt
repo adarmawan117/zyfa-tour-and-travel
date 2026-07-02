@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adarmawan117.github.io/zyfa-tour-and-travel/sitemap.xml
