@@ -1,0 +1,1 @@
+import{r as m}from"./index-BfzESW_y.js";function r({title:n,description:t}){m.useEffect(()=>{if(document.title=n,t){let e=document.querySelector('meta[name="description"]');e||(e=document.createElement("meta"),e.setAttribute("name","description"),document.head.appendChild(e)),e.setAttribute("content",t)}},[n,t])}export{r as u};
